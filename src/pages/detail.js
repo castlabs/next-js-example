@@ -40,8 +40,8 @@ export default function Detail() {
           </div>
           <div className={styles.intro}>
             <p>
-              Coming from home page the PRESTOplay SDK is already fetched. So just
-              create a new instance of the player for this new video element.
+              Navigation from home page the detail page is done via client-side routing
+              so there is no need to reload the PRESTOplay SDK and everything works seamlessly.
             </p>
             <p>
               <Link href="/">← Back to Home Page</Link>
